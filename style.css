@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Exo+2:ital,wght@0,600;1,300&display=swap');
+
+*{
+    font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+        margin-left: 320px;
+        color: white;
+        background-color: rgb(45,42,42);
+
+}
+.sidebar{
+    background-color: #535151;
+    height: 100vh;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.profile-picture{
+    padding-top: 15%;
+        display: grid;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .profile-picture img{
+        width: 180px;
+        height: 220px;
+        border-radius: 1px;
+        border: 4px solid #611313;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease-in-out;
+    }
+.name{
+    color: white;
+    font-size: 100;
+    font-weight: bold;
+}
+.name h1{
+    font-style:normal;
+    font-weight: 700;
+    
+}
+.name p{
+    font-style:normal;
+    font-weight: 700;
+}
+.navbar{
+    display: grid;
+    gap: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.but{
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(35, 28, 28);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+.but:hover{
+    transfrom: scale(1.1);
+    background-color: rgb(159, 9, 9);
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    padding-top: 18%;
+    padding-left: 13%;
+    padding-right: 10%;
+}
+.me{
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 20px;
+    width: 60px;
+    background-color: #535151;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+.section-2{
+    width: 100%;
+    height: 100vh;
+    padding-left: 100%;
+    padding: 50px;  
+    margin-right: ; 
+}
+.section-2 h1{
+    text-align: center;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  font-size: 4rem;
+}
+.left{
+    float: left;
+}
+.left h3{
+    padding: 10px; 
+    padding-bottom: 20px;  
+}
+.cv{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 20px;
+    width: 300px;
+    background-color: rgb(40, 38, 38);
+}
+.cv:hover{
+    transform: scale(1.1);
+    background-color:  rgb(159, 9, 9);
+    box-shadow: 20px rgb(58, 47, 47);
+}
+.right{
+    width: 100%;
+    float: right;
+    display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.no1{
+    
+    width: 20rem;
+  background-color: #222;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.my{
+    justify-content: center;
+    color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  
+
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  padding-left: 2.5rem;
+}
+.front{
+  align-items: center;
+    padding-right: 20px;
+    width: 200px;
+    height: 250px;
+   margin: 4rem 1rem;
+   border-right: .2rem solid #fff;
+    }
+
+.front h6{
+    justify-content: center;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    height: auto;
+    width: 40px;
+}
+.front h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section-4{
+    width: 100%;
+    height: 100vh;
+}
+.head{
+    justify-content: center;
+    color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+  max-width: 1280px;
+  
+}
+ 
+.box-1{
+    background-color: rgb(45,42,42);
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    
+    border-radius: 4px;
+  
+    
+}
+.box-1 img {
+    width: 200px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.box-1 h4{
+    color:red;
+    text-align: center;
+}
+.box-1 p{
+text-align: justify;
+}
+.vi{
+    background-color: #281d1d;
+    color: #dcd8d8;
+    width: 50px;
+    height: 25px;
+    border-radius: 30px;
+    border-color: #281d1d;
+    padding: 5px;
+}
+.section-5{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(45,42,42);
+    
+}
+.head5{
+    padding-top: 200px;
+    justify-content: center;
+    color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+.row{
+    display: flex ;
+}
+.content{
+    float: left;
+    padding-left: 40px;
+    padding-top: 150px;
+}
+.content h3{
+    text-align: justify;
+    padding: 5px;
+}
+.info{
+    text-justify: auto;
+
+}
+.page{
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.coin{
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: px;
+    display: grid;
+    text-align: center;
+    color: white;
+    background-color: #281d1d;
+    gap: 200px;
+}
+input[type=text]{
+    padding: 12px;
+    border: 10px solid rgb(52, 50, 50);
+    border-radius: 4px;
+    font-weight: lighter;
+    color: #635e5e;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+input[type=email]{
+    padding: 12px;
+    border: 10px solid rgb(52, 50, 50);
+    border-radius: 4px;
+    font-weight: lighter;
+    color: #635e5e;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+input[type=number]{
+    padding: 12px;
+    border: 10px solid rgb(52, 50, 50);
+    border-radius: 4px;
+    font-weight: lighter;
+    color: #635e5e;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.coins{
+    background-color: #635e5e;
+    padding: 12px;
+    border: 10px solid rgb(52, 50, 50);
+    border-radius: 4px;
+    font-weight: lighter;
+    color: #635e5e;
+    text-align: center;
+}
+.btn{
+    padding-top: 20px;
+    padding: 15px;
+    display: grid;
+    height: 20px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+
